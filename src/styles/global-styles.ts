@@ -2,6 +2,21 @@ import { createGlobalStyle, css } from "styled-components";
 
 const ResetCSS = css`
   #root {
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+
+    font-family: "Inter", sans-serif;
+
+    height: 100dvh;
+    width: 100vw;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
     font-family: "Inter", sans-serif;
   }
 
@@ -128,6 +143,7 @@ const ResetCSS = css`
   table {
     border-collapse: collapse;
     border-spacing: 0;
+    font-family: "Inter", sans-serif;
   }
 `;
 

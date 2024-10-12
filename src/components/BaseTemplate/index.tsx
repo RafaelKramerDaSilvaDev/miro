@@ -6,5 +6,5 @@ type BaseTemplateProps = {
 };
 
 export const BaseTemplate = ({ children }: BaseTemplateProps) => {
-  return <S.Main>{children}</S.Main>;
+  return <S.Content>{children}</S.Content>;
 };

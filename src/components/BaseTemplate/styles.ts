@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
-  height: 100dvh;
-  width: 100dvw;
-
-  margin: 0;
-  padding: 0;
+export const Content = styled.main`
+  height: 100%;
+  width: 100%;
 `;
